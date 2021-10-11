@@ -1,7 +1,7 @@
 # Credit Risk Analysis
 
 ## Overview of Credit Risk Analysis
-The purpose of this analysis is to predict credit card risk using machine learning. We evaluate several machine learning models to determine the model that best predicts credit card risk. This analysis is based on credit card credit data from LendingClub, a peer-to-peer lending services company. 
+The purpose of this analysis is to predict credit card risk based on credit card credit data from LendingClub, a peer-to-peer lending services company. We evaluate several supervised machine learning models to determine the model that best predicts credit card risk. 
 
 ## Results
 
@@ -13,11 +13,12 @@ The purpose of this analysis is to predict credit card risk using machine learni
 * **Recall:** 
     * High risk: 0.61
     * Low risk: 0.68
-
+**Classification Report**
 ![ROS](https://github.com/rabascoh/credit-risk-analysis/blob/main/Resources/Resampling/naive_random_oversampling.png)
 
 
 ### SMOTE
+This model has an accuracy score of 0.62 and l
 * **Balanced Accuracy Score:** 0.62
 * **Precision:** 
     * High risk: 0.01
@@ -25,7 +26,7 @@ The purpose of this analysis is to predict credit card risk using machine learni
 * **Recall:** 
     * High risk: 0.60
     * Low risk: 0.64
-
+**Classification Report**
 ![SMOTE](https://github.com/rabascoh/credit-risk-analysis/blob/main/Resources/Resampling/SMOTE_oversampling.png)
 
 
@@ -37,7 +38,7 @@ The purpose of this analysis is to predict credit card risk using machine learni
 * **Recall:** 
     * High risk: 0.59
     * Low risk: 0.43
-
+**Classification Report**
 ![CC](https://github.com/rabascoh/credit-risk-analysis/blob/main/Resources/Resampling/cluster_centroids_undersampling.png)
 
 
@@ -49,7 +50,7 @@ The purpose of this analysis is to predict credit card risk using machine learni
 * **Recall:** 
     * High risk: 0.70
     * Low risk: 0.57
-
+**Classification Report**
 ![SMOTEENN](https://github.com/rabascoh/credit-risk-analysis/blob/main/Resources/Resampling/SMOTEENN.png)
 
 
@@ -61,7 +62,7 @@ The purpose of this analysis is to predict credit card risk using machine learni
 * **Recall:** 
     * High risk: 0.34
     * Low risk: 1.00
-
+**Classification Report**
 ![RF](https://github.com/rabascoh/credit-risk-analysis/blob/main/Resources/Ensemble/random_forest.png)
 
 
@@ -73,7 +74,7 @@ The purpose of this analysis is to predict credit card risk using machine learni
 * **Recall:** 
     * High risk: 0.91
     * Low risk: 0.94
-
+**Classification Report**
 ![EE](https://github.com/rabascoh/credit-risk-analysis/blob/main/Resources/Ensemble/easy_ensemble.png)
 
 
